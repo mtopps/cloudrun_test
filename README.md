@@ -1,6 +1,6 @@
-## Docker build
+# Docker build
 
-# backend
+### backend
 
 ```bash
 cd backend
@@ -8,7 +8,7 @@ docker build -t backend .
 docker run --network app-network --name backend -d -p 5000:5000 backend
 ```
 
-# frontend
+### frontend
 
 ```bash
 cd frontend
@@ -16,7 +16,7 @@ docker build -t frontend .
 docker run --network app-network --name frontend -d -p 3000:3000 frontend
 ```
 
-## Cloudrun
+# Cloudrun
 
 1. Authenticate to your Google Cloud account:
 
